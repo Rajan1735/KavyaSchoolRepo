@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #f1f1f1;
+    padding: 20px 50px;
+}
+nav img{
+  width: 15%;
+}
+.items-menu{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+nav ul{
+    display: flex;
+    gap: 60px;
+}
+nav ul li{
+    list-style: none;
+    text-transform: uppercase;
+    color: #868686;
+
+}
+
+#Register{
+    padding: 15px 45px;
+    background-color: #3ea348;
+    color: white;
+    border: none;
+    font-size: 18px;
+}
